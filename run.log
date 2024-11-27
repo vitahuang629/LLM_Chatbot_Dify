@@ -1,0 +1,13 @@
+[INFO][2024-10-24 11:00:36][config.py:297] - 配置文件不存在，将使用config-template.json模板
+[ERROR][2024-10-24 11:00:36][app.py:66] - App startup failed!
+[ERROR][2024-10-24 11:00:36][app.py:67] - [Errno 2] No such file or directory: './config-template.json'
+Traceback (most recent call last):
+  File "c:\Users\11020984\Desktop\LLM\dify\dify-on-wechat\app.py", line 46, in run
+    load_config()
+  File "c:\Users\11020984\Desktop\LLM\dify\dify-on-wechat\config.py", line 300, in load_config
+    config_str = read_file(config_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\11020984\Desktop\LLM\dify\dify-on-wechat\config.py", line 336, in read_file
+    with open(path, mode="r", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './config-template.json'

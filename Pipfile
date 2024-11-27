@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "==1.38.0"
+requests = "==2.32.3"
+pybase64 = "==1.4.0"
+datetime = "==5.5"
+sqlalchemy = "==2.0.36"
+pymysql = "==1.1.1"
+pandas = "==2.2.3"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
